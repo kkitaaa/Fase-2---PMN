@@ -174,6 +174,32 @@ router.get('/pedidos', obtenerPedidos);
  *         description: Resultado de la validación de garantía
  */
 router.post('/solicitud', insertarSolicitud);
+
+/**
+ * @swagger
+ * /api/devolucion:
+ *   post:
+ *     tags:
+ *       - Solicitudes
+ *     summary: Crear una devolución
+ *     description: Crea una solicitud de devolución para un pedido existente.
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               id_pedido:
+ *                 type: integer
+ *                 example: 1
+ *               motivo:
+ *                 type: string
+ *                 example: "Producto defectuoso"
+ *     responses:
+ *       200:
+ *         description: Devolución procesada correctamente
+ */
 router.post('/devolucion', insertarSolicitud);
 
 /**
