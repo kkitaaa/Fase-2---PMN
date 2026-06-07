@@ -76,7 +76,7 @@ export default function Solicitudes() {
     <Box p={6} minH="100vh" bg="#0f0f0f" color="white">
 
       <HStack justify="space-between" mb={6}>
-        <Heading size="lg">
+        <Heading color="#e0e0e0"size="lg">
           Solicitudes de devolución
         </Heading>
 

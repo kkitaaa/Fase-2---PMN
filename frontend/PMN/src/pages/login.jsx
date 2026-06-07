@@ -107,6 +107,7 @@ function Login() {
           style={{
             textAlign: "center",
             marginBottom: 20,
+            color: "#e0e0e0",
           }}
         >
           Iniciar Sesión

@@ -51,7 +51,7 @@ function Devolucion() {
           border: "1px solid #333",
         }}
       >
-        <h2 style={{ textAlign: "center", marginBottom: 20 }}>
+        <h2  style={{ textAlign: "center", marginBottom: 20, color: "#e0e0e0" }}>
           Solicitar Devolución
         </h2>
 

@@ -27,7 +27,8 @@ export default function Home() {
       bg={bg}
       color="white"
     >
-      <Heading mb={2}>
+      
+      <Heading color="#e0e0e0" mb={2}>
         Sistema de Logística de Devoluciones
       </Heading>
 
@@ -43,7 +44,9 @@ export default function Home() {
         >
           <CardBody>
             <VStack spacing={4}>
-              <Heading size="md">Crear devolución</Heading>
+              <Heading color="#e0e0e0" size="md">
+                Crear devolución
+              </Heading>
 
               <Text fontSize="sm" color="gray.400">
                 Ingresar nueva solicitud de devolución de productos
@@ -70,7 +73,9 @@ export default function Home() {
         >
           <CardBody>
             <VStack spacing={4}>
-              <Heading size="md">Ver solicitudes</Heading>
+              <Heading color="#e0e0e0" size="md">
+                Ver solicitudes
+              </Heading>
 
               <Text fontSize="sm" color="gray.400">
                 Revisión de solicitudes ingresadas y su estado
@@ -97,7 +102,9 @@ export default function Home() {
         >
           <CardBody>
             <VStack spacing={4}>
-              <Heading size="md">Mis solicitudes</Heading>
+              <Heading color="#e0e0e0" size="md">
+                Mis solicitudes
+              </Heading>
 
               <Text fontSize="sm" color="gray.400">
                 Ver solo las solicitudes del cliente autenticado

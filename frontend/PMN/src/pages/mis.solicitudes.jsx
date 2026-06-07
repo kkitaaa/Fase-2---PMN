@@ -91,7 +91,7 @@ export default function MisSolicitudes() {
       color="white"
       p={6}
     >
-      <Heading mb={6}>
+      <Heading color="#e0e0e0" mb={6}>
         Mis Solicitudes
       </Heading>
 
