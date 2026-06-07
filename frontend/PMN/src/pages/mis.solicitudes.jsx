@@ -109,6 +109,7 @@ export default function MisSolicitudes() {
             <Thead bg="#141414">
               <Tr>
                 <Th color="gray.300">ID</Th>
+                <Th color="gray.300">Cliente</Th>
                 <Th color="gray.300">Pedido</Th>
                 <Th color="gray.300">Fecha</Th>
                 <Th color="gray.300">Estado</Th>
@@ -126,6 +127,10 @@ export default function MisSolicitudes() {
                 >
                   <Td>
                     #{s.id_solicitud}
+                  </Td>
+
+                  <Td>
+                    {s.nombre_completo}
                   </Td>
 
                   <Td>

@@ -96,7 +96,9 @@ async function obtenerSolicitudesPorUsuario(idUsuario) {
       s.estado,
       s.motivo,
       s.id_pedido,
-      p.monto_total
+      p.monto_total,
+      c.nombre_completo,
+      c.numero_telefonico
     FROM Solicitud s
     JOIN Pedido p
       ON s.id_pedido = p.id_pedido

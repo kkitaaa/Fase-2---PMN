@@ -114,7 +114,7 @@ export default function Solicitudes() {
               >
                 <Td fontWeight="bold">#{s.id_solicitud}</Td>
 
-                <Td>{s.cliente}</Td>
+                <Td>{s.nombre_completo}</Td>
 
                 <Td color="gray.400">#{s.id_pedido}</Td>
 
